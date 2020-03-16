@@ -1,0 +1,7 @@
+C:\Users\anjumvm\source\repos\NakshatraSilks\NakshatraSilks_TotalSalesReport\bin\Debug\NakshatraSilks_TotalSalesReport.exe.config
+C:\Users\anjumvm\source\repos\NakshatraSilks\NakshatraSilks_TotalSalesReport\bin\Debug\NakshatraSilks_TotalSalesReport.exe
+C:\Users\anjumvm\source\repos\NakshatraSilks\NakshatraSilks_TotalSalesReport\bin\Debug\NakshatraSilks_TotalSalesReport.pdb
+C:\Users\anjumvm\source\repos\NakshatraSilks\NakshatraSilks_TotalSalesReport\obj\Debug\NakshatraSilks_TotalSalesReport.csproj.CoreCompileInputs.cache
+C:\Users\anjumvm\source\repos\NakshatraSilks\NakshatraSilks_TotalSalesReport\obj\Debug\NakshatraSilks_TotalSalesReport.exe
+C:\Users\anjumvm\source\repos\NakshatraSilks\NakshatraSilks_TotalSalesReport\obj\Debug\NakshatraSilks_TotalSalesReport.pdb
+C:\Users\anjumvm\source\repos\NakshatraSilks\NakshatraSilks_TotalSalesReport\obj\Debug\NakshatraSilks_TotalSalesReport.csprojAssemblyReference.cache
