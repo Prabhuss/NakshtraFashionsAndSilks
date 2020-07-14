@@ -221,15 +221,23 @@ namespace NakshatraSilks_TotalSalesReport
 
         public static Dictionary<string, string> getSmsSetting(Dictionary<string, string> smsConfig, SqlConnection connectionString)
         {
-
-            SqlCommand cmd = new SqlCommand("select SettingName,SettingValue from CitrineSMSForTask", connectionString);
-            SqlDataReader rdr = cmd.ExecuteReader();
-
-            while (rdr.Read())
+            try
             {
-                smsConfig.Add(rdr[0].ToString().Trim(), rdr[1].ToString().Trim());
+                //SqlCommand cmd = new SqlCommand("select SettingName,SettingValue from CitrineSMSForTask Where MerchantBranchId="+"'"+ConfigurationManager.AppSettings["MerchantBranchId"]+"'", connectionString);
+                SqlCommand cmd = new SqlCommand("select SettingName,SettingValue from CitrineSMSForTask Where MerchantBranchId=179", connectionString);
+                SqlDataReader rdr = cmd.ExecuteReader();
+
+                while (rdr.Read())
+                {
+                    smsConfig.Add(rdr[0].ToString().Trim(), rdr[1].ToString().Trim());
+                }
+                Console.WriteLine("the string dictionary is loaded with SettingNames and SettingValues of CitrineSMSForTask Table\n");
             }
-            Console.WriteLine("the string dictionary is loaded with SettingNames and SettingValues of CitrineSMSForTask Table\n");
+            catch (Exception e)
+            {
+                Console.WriteLine("Error" + e.Message);
+            }
+            
 
             return smsConfig;
 
